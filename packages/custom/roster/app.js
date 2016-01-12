@@ -18,7 +18,7 @@ Roster.register(function(app, auth, database) {
 
   //We are adding a link to the main menu for all authenticated users
   Roster.menus.add({
-    title: 'Roster',
+    title: 'Rosters',
     link: 'roster example page',
     roles: ['authenticated'],
     menu: 'main'
